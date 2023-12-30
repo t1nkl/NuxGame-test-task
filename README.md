@@ -1,17 +1,17 @@
-## Тестове завдання
+## Test task
 
-Дано масив цілих позитивних випадкових чисел, наприклад: $dataset = [ 3, 4, 6, 9,
+An array of positive integers is given, for example: $dataset = [ 3, 4, 6, 9,
 10, 12, 14, 15, 17, 19, 21 ];
 
-Потрібно написати клас, у якому буде один або кілька методів, які (різними
-способами, якщо методів кілька, більше - краще) повертають наступне найменше
-число з масиву після переданого аргументу, або -1 у разі помилки.
+You need to write a class that will have one or more methods that (in different
+ways, if there are several methods, more is better) return the next smallest
+number from the array after the passed argument, or -1 in case of an error.
 
 ```
-Приклад:
+Example:
 f(11) => 10
 f(14) => 12
 ```
 
-Так само потрібно написати для класу юніт тести під phpunit. Фреймворки та
-бібліотеки крім phpunit не використовуємо.
+You also need to write tests for the unit class for phpunit. Frameworks and
+libraries other than phpunit are not used.
